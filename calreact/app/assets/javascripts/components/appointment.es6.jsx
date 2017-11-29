@@ -1,7 +1,10 @@
 class Appointment extends React.Component {
-  render () {
-    return <h1>CalReact</h1>;
-  }
+	render () {
+		return (
+			<div>
+			  <h3>{this.props.appointment.title}</h3>
+			  <p>{this.props.appointment.appt_time}</p>
+			</div>
+		);
+	}
 }
-
-
